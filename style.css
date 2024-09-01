@@ -1,0 +1,108 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Gill Sans MT';
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+}
+
+.header{
+    height: 6rem;
+    width: 100%;
+    background-color: rgba(20, 67, 20, 0.653);
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.head{
+    height: 70%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.head h1{
+    letter-spacing: 2px;
+}
+
+.subhead{
+    position: relative;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.username{
+    position: relative;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.usym{
+    height: 15px;
+    width: 15px;
+    border: 1px solid black;
+    margin: 7px;
+}
+
+.chglang{
+    right: 0;
+    height: auto;
+    width: auto;
+    border: 1px solid black;
+    padding: 3px;
+}
+
+#symbol{
+    height: 2.5rem;
+    width: 2.5rem;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-right: 10px;
+    background-image: url(logo.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.fakeheader{
+    height: 5rem;
+    width: 100%;
+}
+
+.body{
+    height: 32rem;
+    width: 100%;
+}
+
+footer{
+    background-color: #777;
+    height: 2rem; 
+    display: flex;
+}
+  
+footer a{
+    color: white;
+    border: 1px solid white;
+    height: 100%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
