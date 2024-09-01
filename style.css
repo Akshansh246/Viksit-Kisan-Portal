@@ -17,19 +17,20 @@ html,body{
 .header{
     height: 6rem;
     width: 100%;
-    background-color: rgba(20, 67, 20, 0.653);
+    background-color: rgb(0, 100, 0);
     position: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    color: white;
+    padding: 7px;
 }
 
 .head{
     height: 70%;
     width: 100%;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
@@ -48,31 +49,33 @@ html,body{
 
 .username{
     position: relative;
-    left: 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.username img{
+    height: 30px;
+    width: 30px;
+    margin-left: 5px;
+}
+
 .usym{
     height: 15px;
     width: 15px;
-    border: 1px solid black;
     margin: 7px;
 }
 
-.chglang{
-    right: 0;
-    height: auto;
-    width: auto;
-    border: 1px solid black;
-    padding: 3px;
+.chglang img{
+    height: 30px;
+    width: 30px;
+    margin-right: 15px;
+    cursor: pointer;
 }
 
 #symbol{
     height: 2.5rem;
     width: 2.5rem;
-    border: 1px solid black;
     border-radius: 10px;
     margin-right: 10px;
     background-image: url(logo.jpg);
@@ -87,12 +90,12 @@ html,body{
 }
 
 .body{
-    height: 32rem;
+    height: 83%;
     width: 100%;
 }
 
 footer{
-    background-color: #777;
+    background-color: darkgreen;
     height: 2rem; 
     display: flex;
 }
@@ -105,4 +108,4 @@ footer a{
     display: flex;
     align-items: center;
     justify-content: center;
-  }
+}
